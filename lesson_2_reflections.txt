@@ -1,0 +1,14 @@
+When we initialize a repository , it is kind of a whole project set.It contains
+all the necessary files to be present in ordet to operate the whole project.
+after intialization of a repository , git creates  a .git files which contains
+all the metadata about the code revision history of the projects and it's hidden
+because user doesn't really needs to know about all these to do his work.
+
+staging area is characteristic feature of git , it provides more control over
+your files and the changes you want to do to your files. In addition to this
+it will act as a intermediate between working directory and git repository.
+when we perform git commit it saves all files from staging area to the repository.
+it provides a better way to track changes into your files for an instance ,to 
+commit according to some logical change so that in each commit you will have
+manageable amount of changes made into your files.
+
