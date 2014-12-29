@@ -1,0 +1,32 @@
+viewing a diff -u between two versions of a file helps a lot to see the bug 
+that have been introduced in your code , and its to fix that too.
+
+well , to have a easy access to the entire history of a file is a great help
+for a programmer. as it success is nothing but a collection of organised and 
+systematic plan. exactly what git is doing by providing easy access to the 
+entire history of file to keep track of every logical changes.
+
+there are more pros than cons of manually choosing a file to commit. It is 
+upto the programmer who want to commit as per its need. it's not basically
+dependent on the timestamp of any other constraint.
+Only cons I  consider will be because of programmer , in case if he or she 
+forgets to commit.
+
+According to me the reason behind saving multiple files in one commit by
+control systems like git is to keep a whole intact set of functional complete
+project at any commit so we can choose any of the commit and start working
+on that instead of checking for each files which makes up the complete project.
+
+git log commands shows all the commits that has been done in the code management
+history, each commit has it's id associated with it. git diff is used to see
+the difference between two commits in a repository, It may be a single file change or changes in the multiple files.
+
+By using version control I feel very confident about making changes or making 
+mistakes because version control provides me the facility to check for my 
+commit by git log , and I can go for the previous version that suits me 
+better.
+
+After setting up my workspace for git I have planned to use this for my project
+that I have been doing in this final year of my college.
+looking forward for this :)
+
