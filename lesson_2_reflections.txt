@@ -12,3 +12,33 @@ it provides a better way to track changes into your files for an instance ,to
 commit according to some logical change so that in each commit you will have
 manageable amount of changes made into your files.
 
+staging area plays a crucial role to ensure one commit per logical change ,because
+it can take only the file's associated with that logical change to the staging
+area and commit to the repository.
+if we have any doublt regarding this then we can ensure it by git diff --staged
+to see the changes in staging area and repository and we can reset it to 
+if we feel that the changes are not neccessary.
+
+some situations when branches would be helpful in keeping the history organised
+will be any scenario when we need to try out for different cases for any project
+for an instance while developing project at any juncture of time when there 
+could be two or more possible flavors for that project. we could make branch 
+here leaving out the master or main branch intact ,,after some experiment's if
+we find the changes suitable then we will merger it to the main master branch.
+
+digrams show the flow of version control hierarchy in itself. it shows about the
+current head as well as all branches and the branches which have been merged into
+master and other useful information which we can access by git checkout.
+
+when two branches are merged the resultant becomes one path and the commits 
+are sorted by the time of commit's in a interleaved way if they are like so 
+as it was here in the class. now we have one head for the both ways(or we can 
+say commit history).
+
+git automatic merging has lot of pros than cons as compared to manual merging
+because it does everything by it's own. In case files are very large this could
+be very useful tool. Besides, it checks for the commit conflicts if there are,
+and seperates the >>head branch1 ||||original >>>master for convienance to 
+have a look at the differences and to merge them.
+
+
