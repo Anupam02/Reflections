@@ -1,1 +1,19 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+first of all , I might not always want to pull changes manually rather than 
+having git automatically stay up-to-date with my remote repository. nut if 
+I do then the main reason behind that would be to save my files directly 
+into cloud and to ensure that my data will always be there.
+
+to be frank I don't think I got this question completely.
+
+
+branch is for experimental trials in which one master branch is the working
+branch without any glitch wherease others are experimental and if successful
+then can be merged with the master branch in a repository.
+forks and clones are quite confusing but a simple way to differentiate between
+both of them is that : fork operates in github repository from one account to 
+another, while clone is simply making copies of github repository to local
+disk or local disk to local disk(as shown in the quiz).
+
+
