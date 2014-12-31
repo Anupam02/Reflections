@@ -16,4 +16,18 @@ both of them is that : fork operates in github repository from one account to
 another, while clone is simply making copies of github repository to local
 disk or local disk to local disk(as shown in the quiz).
 
+having a copy of the last known state of the remote stored locally will help 
+to ensure the location of master/origin branch so that we could make decisions
+regarding the merging branches to the github and how it has changed.
 
+without using git or github it is very difficult to collaborate to large mass
+of people because these have to be done with manually or by other version-control
+system.well I have no Idea about the other version control systems so as far
+as I know it would be total mess to work with lot of people throgh sharing 
+your files through other media ftp or drive , dropbox or other things. 
+the biggest problem would lies in the merging and branching in this case.
+
+I want to make changes in a seperate branch rather than directly in master when
+I want to do some experiments on my project or we can say to have have a different flavors trial to my project.
+This approach have a benefit that in case of any trouble into my experimental
+branches I have my perfect working master branch always there for me(error free).
